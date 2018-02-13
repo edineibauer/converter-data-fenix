@@ -1,0 +1,21 @@
+{
+  "name": "conn/converter-data-fenix",
+  "description": "Converte o banco atual para o novo modelo.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edinei J. Bauer",
+      "email": "edineibauer@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "conn/conn": "^1"
+  },
+  "autoload": {
+    "psr-0": {
+      "conversorDataFenix": "src/"
+    }
+  }
+}
